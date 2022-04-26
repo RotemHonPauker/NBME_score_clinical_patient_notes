@@ -2,7 +2,7 @@
   <img src="images/Slide1.JPG" width="500"/>
 </p>
 
-Are you familiar with the stressful final exams in medicine in which there is an actor impersonating a patient, and the student has to diagnose him? So on the diagnostic form registered by the student we conducted the [competition](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/data).
+Are you familiar with the stressful final exams in medicine studies in which there is an actor impersonating a patient, and the student has to diagnose him? So the [competition](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/data) is conducted on the diagnostic form submitted by the student.
 
 The purpose of the competition is to develop a model that automatically reads the diagnostic forms and score students performance according to their ability to question and expose as many symptoms as possible.
 
@@ -39,7 +39,7 @@ The BERT outputs (before the sigmoid executed) are shown above. The x axis indic
   <img src="images/Slide6.JPG" width="500"/>
 </p>
 
-Based on the initial assumption that the generic BERT model has a difficulty dealing with medical terms, the domain specific Bio_Clinical_BERT model was also trained [NBME_bio_clinical_bert.ipynb](https://github.com/RotemHonPauker/NBME_score_clinical_patient_notes/blob/master/NBME_bio_clinical_bert.ipynb). This model pretrained by MIMIC-III database which contains medical records of patients in the intesive care unit at Beit Israel Hospital in Boston.(The predictions of the model are saved in a pkl file which can be found in the output of our [Bio_Clinical_BERT kaggle notebook](https://www.kaggle.com/code/kerenhalevy/nmbe-bio-medical-bert/data)).
+Based on the initial assumption that the generic BERT model has a difficulty dealing with medical terms, the domain specific [Bio_Clinical_BERT](https://www.kaggle.com/datasets/aditidutta/bio-clinicalbert) model was also trained [NBME_bio_clinical_bert.ipynb](https://github.com/RotemHonPauker/NBME_score_clinical_patient_notes/blob/master/NBME_bio_clinical_bert.ipynb). This model pretrained by MIMIC-III database which contains medical records of patients in the intesive care unit at Beit Israel Hospital in Boston.(The predictions of the model are saved in a pkl file which can be found in the output of our [Bio_Clinical_BERT kaggle notebook](https://www.kaggle.com/code/kerenhalevy/nmbe-bio-medical-bert/data)).
 
 <p align="center">
   <img src="images/Slide7.JPG" width="500"/>
